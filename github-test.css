@@ -1,0 +1,29 @@
+p {
+  margin: 0px 0px;
+}
+
+.hello-world {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.button{
+  color: white;
+  font-size: 20px;
+  background-color: rgb(1, 160, 1);
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
+}
